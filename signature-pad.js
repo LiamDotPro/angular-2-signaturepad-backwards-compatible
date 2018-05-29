@@ -47,6 +47,7 @@ var SignaturePad = (function () {
     SignaturePad.prototype.fromData = function (points) {
         this.signaturePad.fromData(points);
     };
+
     // Returns signature image as data URL (see https://mdn.io/todataurl for the list of possible paramters)
     SignaturePad.prototype.toDataURL = function (imageType, quality) {
         return this.signaturePad.toDataURL(imageType, quality); // save image as data URL

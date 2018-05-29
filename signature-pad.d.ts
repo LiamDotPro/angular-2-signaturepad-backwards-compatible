@@ -16,6 +16,7 @@ export declare class SignaturePad {
     resizeCanvas(): void;
     toData(): Array<PointGroup>;
     fromData(points: Array<PointGroup>): void;
+    fromDataOld(): void;
     toDataURL(imageType?: string, quality?: number): string;
     fromDataURL(dataURL: string, options?: Object): void;
     clear(): void;
